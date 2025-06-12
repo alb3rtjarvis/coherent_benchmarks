@@ -51,7 +51,7 @@ This section is for users who wish to run the benchmarks themselves, for example
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your_repository_url>
+    git clone https://github.com/alb3rtjarvis/coherent_benchmarks
     cd /path/to/your/coherent_benchmarks
     ```
 
