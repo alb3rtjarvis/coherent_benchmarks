@@ -31,6 +31,8 @@ Hardware: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz, Cores = 4, Threads = 8
 
 <!-- BENCHMARK_RESULTS_END -->
 
+**_NOTE:_**  Certain packages (like `NumbaCS`) make use of JIT compilation to speed up many methods. When functions are JIT-compiled, they are optimized and compiled into machine code on the first function call. This initial longer run time is often referred to as "warm-up" time. Warm-up time is not included in these timings but is recorded in the `results/` directory.
+
 ## Running and Updating Benchmarks
 
 This section is for users who wish to run the benchmarks themselves, for example, to test on their own hardware, add new packages/cases, or to update results.
