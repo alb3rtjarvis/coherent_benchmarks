@@ -82,7 +82,7 @@ We use [`nox`](https://nox.thea.codes/en/stable/) to automate the creation of is
     ```bash
     nox -k numbacs  # Runs all sessions containing "numbacs"
     ```
--  **(Optional) Delete all `nox` envs**: `nox` will  generate environments for each benchmark run. To delete them, simply delete the `.nox` directory from the `coherent_benchmark` directory
+-  **(Optional) Delete all `nox` envs**: `nox` will  generate environments for each benchmark run. To delete them, simply delete the `.nox` directory from the `coherent_benchmarks` directory
     ```bash
     rm -rf .nox
     ```
