@@ -1,0 +1,30 @@
+{
+  "benchmark_script": "lcstool_data_benchmark",
+  "parameters": {
+    "iterates_per_run": 30,
+    "num_benchmark_runs": 3
+  },
+  "timings": {
+    "warmup_time": 140.573696,
+    "loop_times": [
+      3149.26868,
+      3151.502373,
+      3165.473698
+    ],
+    "per_iter_times": [
+      104.97562266666667,
+      105.05007909999999,
+      105.51578993333332
+    ],
+    "mean_loop_time": 3155.414917,
+    "mean_per_iter_time": 105.18049723333333,
+    "std_loop_times": 8.7824627815340488,
+    "std_per_iter_time": 0.292748759384469
+  },
+  "metadata": {
+    "package_name": "LCStool",
+    "case_id": "qge_ftle",
+    "case_description": "QGE FTLE",
+    "case_flow_type": "data"
+  }
+}

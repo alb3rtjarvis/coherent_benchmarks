@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "iterates_per_run": 50,
+    "num_benchmark_runs": 3
+  },
+  "timings": {
+    "warmup_time": 7.272535024996614,
+    "loop_times": [
+      9.00037110899575,
+      9.032150932005607,
+      8.894320755003719
+    ],
+    "per_iter_times": [
+      0.180007422179915,
+      0.18064301864011212,
+      0.17788641510007439
+    ],
+    "mean_loop_time": 8.975614265335025,
+    "mean_per_iter_time": 0.1795122853067005,
+    "std_loop_time": 0.05892914052274497,
+    "std_per_iter_time": 0.001178582810454888
+  },
+  "metadata": {
+    "package_name": "NumbaCS",
+    "case_id": "dg_ftle",
+    "case_description": "Double Gyre FTLE",
+    "case_flow_type": "predefined"
+  }
+}

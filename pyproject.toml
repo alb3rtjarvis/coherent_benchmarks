@@ -1,0 +1,7 @@
+[project]
+name = "benchmarks"
+version = "0.1.0"
+description = "Utility functions and core logic for the benchmark suite."
+
+[tool.setuptools.packages.find]
+where = ["src"]

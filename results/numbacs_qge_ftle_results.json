@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "iterates_per_run": 30,
+    "num_benchmark_runs": 3
+  },
+  "timings": {
+    "warmup_time": 9.661941140977433,
+    "loop_times": [
+      75.80947918299353,
+      76.79516330701881,
+      75.6517290250049
+    ],
+    "per_iter_times": [
+      2.5269826394331174,
+      2.559838776900627,
+      2.5217243008334966
+    ],
+    "mean_loop_time": 76.08545717167242,
+    "mean_per_iter_time": 2.536181905722414,
+    "std_loop_time": 0.5059534741440168,
+    "std_per_iter_time": 0.01686511580480056
+  },
+  "metadata": {
+    "package_name": "NumbaCS",
+    "case_id": "qge_ftle",
+    "case_description": "QGE FTLE",
+    "case_flow_type": "data"
+  }
+}

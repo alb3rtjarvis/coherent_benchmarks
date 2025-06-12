@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "iterates_per_run": 50,
+    "num_benchmark_runs": 3
+  },
+  "timings": {
+    "warmup_time": 22.52677056900575,
+    "loop_times": [
+      1076.0542141869955,
+      1046.0197758259892,
+      1052.1028487049916
+    ],
+    "per_iter_times": [
+      21.52108428373991,
+      20.920395516519783,
+      21.042056974099832
+    ],
+    "mean_loop_time": 1058.0589462393255,
+    "mean_per_iter_time": 21.16117892478651,
+    "std_loop_time": 12.964649250793357,
+    "std_per_iter_time": 0.25929298501586734
+  },
+  "metadata": {
+    "package_name": "Dynlab",
+    "case_id": "dg_ftle",
+    "case_description": "Double Gyre FTLE",
+    "case_flow_type": "predefined"
+  }
+}

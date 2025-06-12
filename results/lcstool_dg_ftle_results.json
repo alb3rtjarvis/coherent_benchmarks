@@ -1,0 +1,30 @@
+{
+  "benchmark_script": "lcstool_dg_benchmark",
+  "parameters": {
+    "iterates_per_run": 50,
+    "num_benchmark_runs": 3
+  },
+  "timings": {
+    "warmup_time": 4.948598,
+    "loop_times": [
+      226.86768,
+      227.268252,
+      225.902839
+    ],
+    "per_iter_times": [
+      4.5373536,
+      4.54536504,
+      4.51805678
+    ],
+    "mean_loop_time": 226.67959033333332,
+    "mean_per_iter_time": 4.5335918066666663,
+    "std_loop_times": 0.70186997169869614,
+    "std_per_iter_time": 0.014037399433973948
+  },
+  "metadata": {
+    "package_name": "LCStool",
+    "case_id": "dg_ftle",
+    "case_description": "Double Gyre FTLE",
+    "case_flow_type": "predefined"
+  }
+}
